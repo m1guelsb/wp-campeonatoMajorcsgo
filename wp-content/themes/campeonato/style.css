@@ -1,0 +1,288 @@
+/*
+Theme Name: Major CSGO
+Theme URI: http://majorcsgo.com
+Author: Miguel
+Author URI: http://google.com/
+Description: Tema criado para Major CSGO
+Version: 1.0
+*/
+
+body{
+	margin: 0;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+
+.container:after, .container:before {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.grid{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.grid {width: 940px;}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.container {
+	width: 768px;
+}
+
+.grid{width: 748px;}
+}
+
+@media only screen and (max-width: 767px) {
+.container {
+	width: 300px;
+}
+
+.grid{
+	width: 300px;
+	margin: 0 0 20px 0;
+	float: none;
+}
+
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+body {
+	font-family: "Alegreya SC";
+	background-color: #202020;
+}
+
+header {
+	text-align: center;
+	background: url("img/major-bg.jpg") no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	padding-bottom: 30px;
+}
+
+ul{
+	padding-inline-start: 0px;
+	margin-block-start: 0;
+}
+
+
+header nav {
+	background: #202020;
+	max-width: 340px;
+	margin: 0 auto;
+	border-radius: 0 0 5px 5px;
+}
+
+
+header nav ul li {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 1.25em;
+}
+
+header nav ul li:before {
+	content: "•";
+	display: inline-block;
+	position: absolute;
+	margin-left: -24px;
+}
+
+header nav ul li:first-child:before {
+	display: none;
+}
+
+header nav ul li a {
+	color: #fff;
+}
+
+header nav ul li a:hover {
+	color: #f17060;
+}
+
+header img {
+	display: block;
+	margin: 80px auto;
+}
+
+header p {
+	max-width: 340px;
+	margin: 0 auto;
+	font-size: 1.25em;
+}
+
+.telefone:after, .telefone:before {
+	content: "";
+	display: inline-block;
+	width: 90px;
+	height: 2px;
+	background: #fff;
+	margin: 0px 15px 3px 15px;
+}
+
+section.container {
+	padding: 40px 0;
+}
+
+.subtitulo {
+	color: #ff6600;
+	font-size: 46px;
+	letter-spacing: .1em;
+	text-align: center;
+	border-top: 2px solid #4d4d4d;
+	border-bottom: 2px solid #4d4d4d;
+	text-transform: uppercase;
+	padding: 10px 0;
+	margin-bottom: 40px;
+}
+
+.menu-item {
+	text-align: right;
+	margin-bottom: 0px;
+}
+
+.menu-item h2 {
+	font-size: 2.25em;
+	color: #f17060;
+	padding: 0px 100px 10px 0;
+	border-bottom: 1px dashed #373532;
+}
+
+.menu-item h3 {
+	font-size: 1.125em;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+.menu-item p {
+	font-family: georgia;
+	font-style: italic;
+	font-size: 0.875em;
+	line-height: 1.4em;
+	color: #787367;
+}
+
+.menu-item li {
+	clear: both;
+	padding: 15px 0;
+	border-bottom: 1px dashed #373532;
+	overflow: hidden;
+}
+
+.menu-item li:hover {
+	background-color: #131313;
+}
+
+.menu-item div {
+	float: right;
+	max-width: 290px;
+}
+
+.menu-item span {
+	font-size: 1.5em;
+	display: block;
+	float: right;
+	width: 100px;
+	color: #fff;
+}
+
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px 0 10px 0;
+	background-color: #131313;
+	color: #787367;
+	text-transform: lowercase;
+}
+
+.sobre p {
+	font-size: 0.875em;
+	font-family: georgia;
+	line-height: 1.6em;
+	margin-bottom: 1.5em;
+	color: #fff;
+	padding-left: 20px;
+	padding-right: 80px;
+}
+
+.sobre div h2 {
+	font-size: 1.5em;
+	color: #f17060;
+	padding-left: 20px;
+	padding-right: 80px;
+	font-weight: normal;
+}
+
+.current_page_item a {
+	color: #f17060;
+}
+
+
+
+
+table{
+	width: 940px;
+	text-align: left;
+	border-collapse: collapse;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	margin: 50px 0;
+}
+table thead tr, th{
+	background-color: #ff6600;
+	color: #ffffff;
+	font-size:20px;
+	font-weight: normal;
+}
+table th, td{
+	padding: 12px 15px;
+}
+table tbody tr{
+	border-bottom: 1px solid #131313;
+	color: white;
+}
+table tbody tr td{
+	height: 60px;
+}
+table tbody tr:nth-of-type(even){
+	background-color: #131313;
+}
+table tbody tr:last-of-type{
+	border-bottom: 2px solid #ff6600;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+.menu-item {
+	text-align: center;
+}
+.menu-item span {
+	float: none;
+	margin: 0 auto;
+}
+.menu-item h2 {
+	padding: 20px 0px 10px 0;
+}
+
+}
